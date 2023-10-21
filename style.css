@@ -1,0 +1,156 @@
+
+body{
+    margin: 0px 0px 0px 0px;
+    background-color: #252525;
+    color: #ddd;
+}
+
+.content {
+    flex: 1;
+    margin: 0px 50px 0px 50px;
+}
+h1 {
+    text-shadow: 2px 6px 8px #db4444;
+    font-family: Poppins;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 29pt;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ddd;
+}
+
+img.photo{
+    padding: 10px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+table.name-set{
+    width: 35%;
+    font-family: lato;
+}
+
+tr.name-set{
+    background-color: #252525;
+
+}
+
+td.name-set1{
+    border-left: dotted #db4444;
+    border-bottom: none;
+}
+td.name-set2{
+    border: none;
+}
+
+
+table.sumber-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    margin: 0 ;
+    font-family: lato;
+}
+
+td.sumber-photo1{
+    background-color: #252525;
+    border-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+a:link{
+    color: #ddd;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a :hover{
+    color: #db4444;
+}
+
+table{
+    border-collapse: collapse;
+    width: 40%;
+}
+
+th{
+    padding: 10px;
+    background-color: #FF4548;
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr{
+    background-color: #3a3a3afb;
+    padding: 10px;
+
+}
+
+.fixture{
+    background-color: #252525;
+    background-image: url(img/graphic-pl2.png);
+    background-size: 100%;
+    border-radius:10px 10px 10px 10px;
+    font-family: Lato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    margin: 0 ;
+    font-size: 16pt;
+}
+ul{
+    font-family: Lato;
+    list-style: circle;
+}
+
+p {
+ font-family: Lato;
+ text-align: left;
+ font-size: 13pt;
+ margin-right: 0px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+}
+img.float-icon{
+    float: left;
+    border: double #db4444;
+    width: 100px;
+    padding: 12px 5px 0px px;
+}
+img.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.center-foot{
+    text-align: center;
+    color: #ffffff;
+}
+footer a {
+    color: #ffffff; 
+    text-decoration: none; 
+    transition: color 1s; 
+  }
+p.hak-cipta{
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    font-family: Lato;
+}
