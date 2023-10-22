@@ -138,14 +138,19 @@ img.icon{
     margin-left: auto;
     margin-right: auto;
 }
-
+.center-foot{
+    font-family: Lato;
+}
 p.center-foot{
     text-align: center;
     color: #ffffff;
+    font-family: lato;
 }
 footer a {
+
     color: #ffffff; 
     text-decoration: none; 
     transition: color 1s; 
+    
 
 }
